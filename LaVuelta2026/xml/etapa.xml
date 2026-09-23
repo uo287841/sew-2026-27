@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+
+<!--
+    etapa.xml
+    LaVuelta2026 - UO287841
+    CÓDIGO = (287841 MOD 21) + 1 = 16
+    Etapa 16: Cortegana - La Rábida (Palos de la Frontera), 8-septiembre-2026
+-->
+
+<etapa numero="16">
+
+  <nombre>Cortegana - La Rábida (Palos de la Frontera)</nombre>
+
+  <longitud unidad="km">181.1</longitud>
+
+  <fecha>08-09-2026</fecha>
+
+  <tiempoGanador>03:56:33</tiempoGanador>
+
+  <!-- 181,1 km en 3h 56' 33" = 14193 s -> 181,1 / 3,9425 h -->
+  <velocidadMedia unidad="km/h">45,93</velocidadMedia>
+
+  <!-- Valor aproximado: etapa descrita como perfil ondulado con repechos en el
+       primer tercio y tramo final llano, sin puertos puntuables. Verificar el
+       dato exacto en el libro de ruta interactivo (libro-de-ruta-interactivo-lv26.pdf) -->
+  <desnivel unidad="m">1200</desnivel>
+
+  <origen>
+    <lugar>Cortegana (Huelva)</lugar>
+    <coordenadas>
+      <longitudGeo unidad="grados decimales">-6.8264</longitudGeo>
+      <latitud unidad="grados decimales">37.9139</latitud>
+      <altitud unidad="m">690</altitud>
+    </coordenadas>
+  </origen>
+
+  <destino>
+    <lugar>Monasterio de La Rábida, Palos de la Frontera (Huelva)</lugar>
+    <coordenadas>
+      <longitudGeo unidad="grados decimales">-6.9203</longitudGeo>
+      <latitud unidad="grados decimales">37.2081</latitud>
+      <altitud unidad="m">20</altitud>
+    </coordenadas>
+  </destino>
+
+  <tipoEtapa valor="llana"/>
+
+  <referencias>
+    <referencia>https://www.lavuelta.es/es/etapa-16</referencia>
+    <referencia>https://www.procyclingstats.com/race/vuelta-a-espana/2026/stage-16/result/result</referencia>
+    <referencia>https://www.eurosport.es/ciclismo/vuelta-a-espana/2026/16a-etapa-perfil-recorrido-cortegana-rabida-palos-de-la-frontera-181-kilometros-horario-como-ver-television-streaming-hoy_sto23334749/story.shtml</referencia>
+    <referencia>https://www.clarosports.com/ciclismo/vuelta-a-espana-2026-en-vivo-resultados-al-momento-posiciones-y-quien-gana-la-etapa-16/</referencia>
+  </referencias>
+
+  <!-- IMPORTANTE: sustituir estos nombres de archivo por fotos reales,
+       ubicadas en la carpeta multimedia del proyecto LaVuelta2026 -->
+  <galeriaFotos>
+    <foto archivo="Salida-Cortegana.jpg" descripcion="Salida de la etapa en Cortegana"/>
+    <foto archivo="Sprint-Villarrasa.jpg" descripcion="Paso por el esprint intermedio de Villarrasa"/>
+    <foto archivo="Meta-LaRabida.jpg" descripcion="Llegada a La Rábida, Palos de la Frontera"/>
+  </galeriaFotos>
+
+  <galeriaVideos>
+    <video archivo="Resumen-Etapa16.mp4" descripcion="Resumen oficial de la etapa 16"/>
+    <video archivo="UltimoKm-Etapa16.mp4" descripcion="Último kilómetro y esprint final"/>
+  </galeriaVideos>
+
+  <galeriaPodcasts>
+    <podcast archivo="Podcast-Etapa16.mp3" descripcion="Análisis de la etapa 16"/>
+  </galeriaPodcasts>
+
+  <hitos>
+    <!-- Etapa sin puertos de montaña puntuables -->
+    <sprint tipo="intermedio">
+      <lugar>Villarrasa</lugar>
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.5833</longitudGeo>
+        <latitud unidad="grados decimales">37.3667</latitud>
+        <altitud unidad="m">80</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">114.5</distanciaSalida>
+    </sprint>
+    <puntoAnonimo nombre="Alto de Fuenteheridos (no puntuable)">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.6417</longitudGeo>
+        <latitud unidad="grados decimales">37.9086</latitud>
+        <altitud unidad="m">730</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">22</distanciaSalida>
+    </puntoAnonimo>
+  </hitos>
+
+  <clasificacionEtapa>
+    <corredorEtapa posicion="1">
+      <nombreCorredor>Matthew Brennan</nombreCorredor>
+      <equipo>Team Visma | Lease a Bike</equipo>
+      <diferencia>0s</diferencia>
+    </corredorEtapa>
+    <corredorEtapa posicion="2">
+      <nombreCorredor>Bryan Coquard</nombreCorredor>
+      <equipo>[VERIFICAR equipo 2026]</equipo>
+      <diferencia>m.t.</diferencia>
+    </corredorEtapa>
+    <corredorEtapa posicion="3">
+      <nombreCorredor>Vito Braet</nombreCorredor>
+      <equipo>[VERIFICAR equipo 2026]</equipo>
+      <diferencia>m.t.</diferencia>
+    </corredorEtapa>
+  </clasificacionEtapa>
+
+  <clasificacionGeneral>
+    <corredorGeneral posicion="1">
+      <nombreCorredor>Enric Mas</nombreCorredor>
+      <equipo>Movistar Team</equipo>
+      <diferencia>líder</diferencia>
+    </corredorGeneral>
+    <corredorGeneral posicion="2">
+      <nombreCorredor>Felix Gall</nombreCorredor>
+      <equipo>Decathlon CMA CGM</equipo>
+      <diferencia>+2'06"</diferencia>
+    </corredorGeneral>
+    <corredorGeneral posicion="3">
+      <nombreCorredor>Primoz Roglic</nombreCorredor>
+      <equipo>Red Bull-BORA-hansgrohe</equipo>
+      <diferencia>+2'10"</diferencia>
+    </corredorGeneral>
+  </clasificacionGeneral>
+
+  <clasificacionEquipos>
+    <equipoClasificado posicion="1">
+      <nombreEquipo>Decathlon CMA CGM</nombreEquipo>
+      <diferencia>líder</diferencia>
+    </equipoClasificado>
+    <equipoClasificado posicion="2">
+      <nombreEquipo>[VERIFICAR]</nombreEquipo>
+      <diferencia>[VERIFICAR]</diferencia>
+    </equipoClasificado>
+    <equipoClasificado posicion="3">
+      <nombreEquipo>[VERIFICAR]</nombreEquipo>
+      <diferencia>[VERIFICAR]</diferencia>
+    </equipoClasificado>
+  </clasificacionEquipos>
+
+</etapa>
