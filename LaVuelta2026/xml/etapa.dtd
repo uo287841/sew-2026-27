@@ -1,12 +1,13 @@
 
-<!ELEMENT etapa (nombre, longitud, fecha, tiempoGanador, velocidadMedia,
-                 desnivel, origen, destino, tipoEtapa, referencias,
-                 galeriaFotos, galeriaVideos, galeriaPodcasts, hitos,
+<!ELEMENT etapa (nombre, numeroEtapa, longitud, fecha, tiempoGanador,
+                 velocidadMedia, desnivel, lugarSalida, lugarMeta, tipoEtapa,
+                 referencias, galeriaFotos, galeriaVideos, galeriaPodcasts,
+                 coordenadasSalida, coordenadasMeta, hitos,
                  clasificacionEtapa, clasificacionGeneral, clasificacionEquipos)>
-<!ATTLIST etapa
-          numero CDATA #REQUIRED>
 
 <!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT numeroEtapa (#PCDATA)>
 
 <!ELEMENT longitud (#PCDATA)>
 <!ATTLIST longitud
@@ -24,20 +25,8 @@
 <!ATTLIST desnivel
           unidad CDATA #FIXED "m">
 
-<!ELEMENT origen (lugar, coordenadas)>
-<!ELEMENT destino (lugar, coordenadas)>
-<!ELEMENT lugar (#PCDATA)>
-
-<!ELEMENT coordenadas (longitudGeo, latitud, altitud)>
-<!ELEMENT longitudGeo (#PCDATA)>
-<!ATTLIST longitudGeo
-          unidad CDATA #FIXED "grados decimales">
-<!ELEMENT latitud (#PCDATA)>
-<!ATTLIST latitud
-          unidad CDATA #FIXED "grados decimales">
-<!ELEMENT altitud (#PCDATA)>
-<!ATTLIST altitud
-          unidad CDATA #FIXED "m">
+<!ELEMENT lugarSalida (#PCDATA)>
+<!ELEMENT lugarMeta (#PCDATA)>
 
 <!ELEMENT tipoEtapa EMPTY>
 <!ATTLIST tipoEtapa
@@ -64,6 +53,21 @@
           archivo CDATA #REQUIRED
           descripcion CDATA #IMPLIED>
 
+<!ELEMENT coordenadasSalida (longitudGeo, latitud, altitud)>
+<!ELEMENT coordenadasMeta (longitudGeo, latitud, altitud)>
+
+<!ELEMENT longitudGeo (#PCDATA)>
+<!ATTLIST longitudGeo
+          unidad CDATA #FIXED "grados decimales">
+
+<!ELEMENT latitud (#PCDATA)>
+<!ATTLIST latitud
+          unidad CDATA #FIXED "grados decimales">
+
+<!ELEMENT altitud (#PCDATA)>
+<!ATTLIST altitud
+          unidad CDATA #FIXED "m">
+
 <!ELEMENT hitos (puertoMontana*, sprint+, puntoAnonimo*)>
 
 <!ELEMENT puertoMontana (lugar, coordenadas, distanciaSalida)>
@@ -77,6 +81,10 @@
 <!ELEMENT puntoAnonimo (coordenadas, distanciaSalida)>
 <!ATTLIST puntoAnonimo
           nombre CDATA #IMPLIED>
+
+<!ELEMENT lugar (#PCDATA)>
+
+<!ELEMENT coordenadas (longitudGeo, latitud, altitud)>
 
 <!ELEMENT distanciaSalida (#PCDATA)>
 <!ATTLIST distanciaSalida
