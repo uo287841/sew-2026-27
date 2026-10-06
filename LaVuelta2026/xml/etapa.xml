@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE etapa SYSTEM "etapa.dtd">
 
-
 <etapa>
 
   <nombre>Cortegana - La Rábida. Palos de la Frontera</nombre>
@@ -10,11 +9,11 @@
 
   <longitud unidad="km">181.1</longitud>
 
-  <fecha>08-09-2026</fecha>
+  <fecha>2026-09-08</fecha>
 
   <tiempoGanador>03:56:33</tiempoGanador>
 
-  <velocidadMedia unidad="km/h">45,93</velocidadMedia>
+  <velocidadMedia unidad="km/h">45.93</velocidadMedia>
 
   <desnivel unidad="m">2256</desnivel>
 
@@ -22,41 +21,40 @@
 
   <lugarMeta>La Rábida, Palos de la Frontera (Huelva)</lugarMeta>
 
-  <tipoEtapa valor="llana"/>
+  <tipoEtapa valor="media-montaña"/>
 
   <referencias>
+    <referencia>https://www.cortegana.es</referencia>
+    <referencia>https://es.wikipedia.org/wiki/Cortegana</referencia>
+    <referencia>https://www.palosfrontera.com</referencia>
+    <referencia>https://es.wikipedia.org/wiki/Palos_de_la_Frontera</referencia>
     <referencia>https://www.lavuelta.es/es/etapa-16</referencia>
-    <referencia>https://www.procyclingstats.com/race/vuelta-a-espana/2026/stage-16/result/result</referencia>
-    <referencia>https://www.eurosport.es/ciclismo/vuelta-a-espana/2026/16a-etapa-perfil-recorrido-cortegana-rabida-palos-de-la-frontera-181-kilometros-horario-como-ver-television-streaming-hoy_sto23334749/story.shtml</referencia>
-    <referencia>https://www.clarosports.com/ciclismo/vuelta-a-espana-2026-en-vivo-resultados-al-momento-posiciones-y-quien-gana-la-etapa-16/</referencia>
   </referencias>
 
   <galeriaFotos>
-    <foto archivo="Salida-Cortegana.jpg" descripcion="Salida de la etapa en Cortegana"/>
-    <foto archivo="Sprint-Villarrasa.jpg" descripcion="Paso por el esprint intermedio de Villarrasa"/>
-    <foto archivo="Meta-LaRabida.jpg" descripcion="Llegada a La Rábida, Palos de la Frontera"/>
+    <foto archivo="../multimedia/Salida-Cortegana.jpg" descripcion="Salida de la etapa en Cortegana"/>
+    <foto archivo="../multimedia/Sprint-Villarrasa.jpg" descripcion="Paso por el esprint intermedio de Villarrasa"/>
+    <foto archivo="../multimedia/Meta-LaRabida.jpg" descripcion="Llegada a La Rábida, Palos de la Frontera"/>
   </galeriaFotos>
 
   <galeriaVideos>
-    <video archivo="Resumen-Etapa16.mp4" descripcion="Resumen oficial de la etapa 16"/>
-    <video archivo="UltimoKm-Etapa16.mp4" descripcion="Último kilómetro y esprint final"/>
+    <video archivo="../multimedia/Resumen-Etapa16.mp4" descripcion="Resumen oficial de la etapa 16"/>
+    <video archivo="../multimedia/UltimoKm-Etapa16.mp4" descripcion="Último kilómetro y esprint final"/>
   </galeriaVideos>
 
   <galeriaPodcasts>
-    <podcast archivo="Podcast-Etapa16.mp3" descripcion="Análisis de la etapa 16"/>
+    <podcast archivo="../multimedia/Podcast-Etapa16.mp3" descripcion="Análisis de la etapa 16"/>
   </galeriaPodcasts>
 
-
   <coordenadasSalida>
-    <longitudGeo unidad="grados decimales">-6.4921</longitudGeo>
-    <latitud unidad="grados decimales">37.5450</latitud>
-    <altitud unidad="m">638</altitud>
+    <longitudGeo unidad="grados decimales">-6.819944</longitudGeo>
+    <latitud unidad="grados decimales">37.914528</latitud>
+    <altitud unidad="m">612</altitud>
   </coordenadasSalida>
 
-
   <coordenadasMeta>
-    <longitudGeo unidad="grados decimales">-6.9233</longitudGeo>
-    <latitud unidad="grados decimales">37.2015</latitud>
+    <longitudGeo unidad="grados decimales">-6.923333</longitudGeo>
+    <latitud unidad="grados decimales">37.201528</latitud>
     <altitud unidad="m">8</altitud>
   </coordenadasMeta>
 
@@ -64,8 +62,8 @@
     <sprint tipo="intermedio">
       <lugar>Villarrasa</lugar>
       <coordenadas>
-        <longitudGeo unidad="grados decimales">-6.5833</longitudGeo>
-        <latitud unidad="grados decimales">37.3667</latitud>
+        <longitudGeo unidad="grados decimales">-6.5989</longitudGeo>
+        <latitud unidad="grados decimales">37.3870</latitud>
         <altitud unidad="m">73</altitud>
       </coordenadas>
       <distanciaSalida unidad="km">114.5</distanciaSalida>
@@ -73,8 +71,8 @@
 
     <puntoAnonimo nombre="Fuenteheridos">
       <coordenadas>
-        <longitudGeo unidad="grados decimales">-6.6417</longitudGeo>
-        <latitud unidad="grados decimales">37.8974</latitud>
+        <longitudGeo unidad="grados decimales">-6.6610</longitudGeo>
+        <latitud unidad="grados decimales">37.9038</latitud>
         <altitud unidad="m">733</altitud>
       </coordenadas>
       <distanciaSalida unidad="km">21.9</distanciaSalida>
@@ -82,8 +80,8 @@
 
     <puntoAnonimo nombre="Aracena">
       <coordenadas>
-        <longitudGeo unidad="grados decimales">-6.5570</longitudGeo>
-        <latitud unidad="grados decimales">37.8926</latitud>
+        <longitudGeo unidad="grados decimales">-6.5653</longitudGeo>
+        <latitud unidad="grados decimales">37.8939</latitud>
         <altitud unidad="m">714</altitud>
       </coordenadas>
       <distanciaSalida unidad="km">31.4</distanciaSalida>
@@ -91,8 +89,8 @@
 
     <puntoAnonimo nombre="Minas de Riotinto">
       <coordenadas>
-        <longitudGeo unidad="grados decimales">-6.5833</longitudGeo>
-        <latitud unidad="grados decimales">37.7000</latitud>
+        <longitudGeo unidad="grados decimales">-6.5911</longitudGeo>
+        <latitud unidad="grados decimales">37.6903</latitud>
         <altitud unidad="m">422</altitud>
       </coordenadas>
       <distanciaSalida unidad="km">63.1</distanciaSalida>
@@ -100,8 +98,8 @@
 
     <puntoAnonimo nombre="La Palma del Condado">
       <coordenadas>
-        <longitudGeo unidad="grados decimales">-6.5507</longitudGeo>
-        <latitud unidad="grados decimales">37.3903</latitud>
+        <longitudGeo unidad="grados decimales">-6.5517</longitudGeo>
+        <latitud unidad="grados decimales">37.3842</latitud>
         <altitud unidad="m">81</altitud>
       </coordenadas>
       <distanciaSalida unidad="km">111.0</distanciaSalida>
@@ -109,8 +107,8 @@
 
     <puntoAnonimo nombre="Lucena del Puerto">
       <coordenadas>
-        <longitudGeo unidad="grados decimales">-6.6667</longitudGeo>
-        <latitud unidad="grados decimales">37.2667</latitud>
+        <longitudGeo unidad="grados decimales">-6.7293</longitudGeo>
+        <latitud unidad="grados decimales">37.3040</latitud>
         <altitud unidad="m">89</altitud>
       </coordenadas>
       <distanciaSalida unidad="km">136.0</distanciaSalida>
@@ -118,8 +116,8 @@
 
     <puntoAnonimo nombre="Moguer">
       <coordenadas>
-        <longitudGeo unidad="grados decimales">-6.8388</longitudGeo>
-        <latitud unidad="grados decimales">37.2758</latitud>
+        <longitudGeo unidad="grados decimales">-6.8385</longitudGeo>
+        <latitud unidad="grados decimales">37.2755</latitud>
         <altitud unidad="m">56</altitud>
       </coordenadas>
       <distanciaSalida unidad="km">147.2</distanciaSalida>
@@ -172,7 +170,7 @@
 
     <corredorGeneral posicion="3">
       <nombreCorredor>Primoz Roglic</nombreCorredor>
-      <equipo>Bahrain-Victorious</equipo>
+      <equipo>Red Bull-BORA-hansgrohe</equipo>
       <diferencia>+2'10"</diferencia>
     </corredorGeneral>
 
@@ -190,7 +188,7 @@
     </equipoClasificado>
 
     <equipoClasificado posicion="3">
-      <nombreEquipo>Red Bull-BORA-hansgrohe</nombreEquipo>
+      <nombreEquipo>Bahrain-Victorious</nombreEquipo>
       <diferencia>+1h 11'15"</diferencia>
     </equipoClasificado>
   </clasificacionEquipos>
