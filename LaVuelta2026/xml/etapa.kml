@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Etapa 16 - Cortegana - La Rábida. Palos de la Frontera</name>
+    <Style id="rojo">
+      <IconStyle>
+        <color>ff0000ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="verde">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="azul">
+      <IconStyle>
+        <color>ffff0000</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="amarillo">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="recorrido">
+      <LineStyle>
+        <color>ff0080ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+    <Placemark>
+      <name>Recorrido de la etapa</name>
+      <styleUrl>#recorrido</styleUrl>
+      <LineString>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.819944,37.914528,612
+-6.7854,37.8724,574
+-6.7042,37.8950,733
+-6.6610,37.9038,733
+-6.5653,37.8939,714
+-6.5728,37.7675,520
+-6.5911,37.6903,422
+-6.5517,37.3842,81
+-6.5989,37.3870,73
+-6.7293,37.3040,89
+-6.8385,37.2755,56
+-6.8930,37.2306,10
+-6.923333,37.201528,8</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cortegana (Huelva)</name>
+      <description>Km 0.0 - Altitud 612 m</description>
+      <styleUrl>#rojo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.819944,37.914528,612</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Rábida, Palos de la Frontera (Huelva)</name>
+      <description>Km 181.1 - Altitud 8 m</description>
+      <styleUrl>#rojo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.923333,37.201528,8</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Villarrasa</name>
+      <description>Km 114.5 - Altitud 73 m</description>
+      <styleUrl>#azul</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.5989,37.3870,73</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Almonaster la Real</name>
+      <description>Km 2.0 - Altitud 574 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.7854,37.8724,574</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Castaño del Robledo</name>
+      <description>Km 17.7 - Altitud 733 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.7042,37.8950,733</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Fuenteheridos</name>
+      <description>Km 21.9 - Altitud 733 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.6610,37.9038,733</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Aracena</name>
+      <description>Km 31.4 - Altitud 714 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.5653,37.8939,714</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Campofrío</name>
+      <description>Km 52.7 - Altitud 520 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.5728,37.7675,520</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Minas de Riotinto</name>
+      <description>Km 63.1 - Altitud 422 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.5911,37.6903,422</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Palma del Condado</name>
+      <description>Km 111.0 - Altitud 81 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.5517,37.3842,81</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Lucena del Puerto</name>
+      <description>Km 136.0 - Altitud 89 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.7293,37.3040,89</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Moguer</name>
+      <description>Km 147.2 - Altitud 56 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.8385,37.2755,56</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Palos de la Frontera</name>
+      <description>Km 155.4 - Altitud 10 m</description>
+      <styleUrl>#amarillo</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>-6.8930,37.2306,10</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

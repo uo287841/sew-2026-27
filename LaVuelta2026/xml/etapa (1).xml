@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+
+<etapa>
+
+  <nombre>Cortegana - La Rábida. Palos de la Frontera</nombre>
+
+  <numeroEtapa>16</numeroEtapa>
+
+  <longitud unidad="km">181.1</longitud>
+
+  <fecha>2026-09-08</fecha>
+
+  <tiempoGanador>03:56:33</tiempoGanador>
+
+  <velocidadMedia unidad="km/h">45.93</velocidadMedia>
+
+  <desnivel unidad="m">2256</desnivel>
+
+  <lugarSalida>Cortegana (Huelva)</lugarSalida>
+
+  <lugarMeta>La Rábida, Palos de la Frontera (Huelva)</lugarMeta>
+
+  <tipoEtapa valor="media-montaña"/>
+
+  <referencias>
+    <referencia>https://www.cortegana.es</referencia>
+    <referencia>https://es.wikipedia.org/wiki/Cortegana</referencia>
+    <referencia>https://www.palosfrontera.com</referencia>
+    <referencia>https://es.wikipedia.org/wiki/Palos_de_la_Frontera</referencia>
+    <referencia>https://www.lavuelta.es/es/etapa-16</referencia>
+  </referencias>
+
+  <galeriaFotos>
+    <foto archivo="../multimedia/Salida-Cortegana.jpg" descripcion="Salida de la etapa en Cortegana"/>
+    <foto archivo="../multimedia/Sprint-Villarrasa.jpg" descripcion="Paso por el esprint intermedio de Villarrasa"/>
+    <foto archivo="../multimedia/Meta-LaRabida.jpg" descripcion="Llegada a La Rábida, Palos de la Frontera"/>
+  </galeriaFotos>
+
+  <galeriaVideos>
+    <video archivo="../multimedia/Resumen-Etapa16.mp4" descripcion="Resumen oficial de la etapa 16"/>
+    <video archivo="../multimedia/UltimoKm-Etapa16.mp4" descripcion="Último kilómetro y esprint final"/>
+  </galeriaVideos>
+
+  <galeriaPodcasts>
+    <podcast archivo="../multimedia/Podcast-Etapa16.mp3" descripcion="Análisis de la etapa 16"/>
+  </galeriaPodcasts>
+
+  <coordenadasSalida>
+    <longitudGeo unidad="grados decimales">-6.819944</longitudGeo>
+    <latitud unidad="grados decimales">37.914528</latitud>
+    <altitud unidad="m">612</altitud>
+  </coordenadasSalida>
+
+  <coordenadasMeta>
+    <longitudGeo unidad="grados decimales">-6.923333</longitudGeo>
+    <latitud unidad="grados decimales">37.201528</latitud>
+    <altitud unidad="m">8</altitud>
+  </coordenadasMeta>
+
+  <hitos>
+    <sprint tipo="intermedio">
+      <lugar>Villarrasa</lugar>
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.5989</longitudGeo>
+        <latitud unidad="grados decimales">37.3870</latitud>
+        <altitud unidad="m">73</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">114.5</distanciaSalida>
+    </sprint>
+
+    <puntoAnonimo nombre="Almonaster la Real">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.7854</longitudGeo>
+        <latitud unidad="grados decimales">37.8724</latitud>
+        <altitud unidad="m">574</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">2.0</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Castaño del Robledo">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.7042</longitudGeo>
+        <latitud unidad="grados decimales">37.8950</latitud>
+        <altitud unidad="m">733</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">17.7</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Fuenteheridos">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.6610</longitudGeo>
+        <latitud unidad="grados decimales">37.9038</latitud>
+        <altitud unidad="m">733</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">21.9</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Aracena">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.5653</longitudGeo>
+        <latitud unidad="grados decimales">37.8939</latitud>
+        <altitud unidad="m">714</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">31.4</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Campofrío">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.5728</longitudGeo>
+        <latitud unidad="grados decimales">37.7675</latitud>
+        <altitud unidad="m">520</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">52.7</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Minas de Riotinto">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.5911</longitudGeo>
+        <latitud unidad="grados decimales">37.6903</latitud>
+        <altitud unidad="m">422</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">63.1</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="La Palma del Condado">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.5517</longitudGeo>
+        <latitud unidad="grados decimales">37.3842</latitud>
+        <altitud unidad="m">81</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">111.0</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Lucena del Puerto">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.7293</longitudGeo>
+        <latitud unidad="grados decimales">37.3040</latitud>
+        <altitud unidad="m">89</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">136.0</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Moguer">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.8385</longitudGeo>
+        <latitud unidad="grados decimales">37.2755</latitud>
+        <altitud unidad="m">56</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">147.2</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Palos de la Frontera">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.8930</longitudGeo>
+        <latitud unidad="grados decimales">37.2306</latitud>
+        <altitud unidad="m">10</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">155.4</distanciaSalida>
+    </puntoAnonimo>
+  </hitos>
+
+  <clasificacionEtapa>
+    <corredorEtapa posicion="1">
+      <nombreCorredor>Matthew Brennan</nombreCorredor>
+      <equipo>Team Visma | Lease a Bike</equipo>
+      <diferencia>0s</diferencia>
+    </corredorEtapa>
+
+    <corredorEtapa posicion="2">
+      <nombreCorredor>Bryan Coquard</nombreCorredor>
+      <equipo>Cofidis</equipo>
+      <diferencia>m.t.</diferencia>
+    </corredorEtapa>
+
+    <corredorEtapa posicion="3">
+      <nombreCorredor>Vito Braet</nombreCorredor>
+      <equipo>Lotto Intermarché</equipo>
+      <diferencia>m.t.</diferencia>
+    </corredorEtapa>
+
+  </clasificacionEtapa>
+
+  <clasificacionGeneral>
+    <corredorGeneral posicion="1">
+      <nombreCorredor>Enric Mas</nombreCorredor>
+      <equipo>Movistar Team</equipo>
+      <diferencia>líder</diferencia>
+    </corredorGeneral>
+
+    <corredorGeneral posicion="2">
+      <nombreCorredor>Felix Gall</nombreCorredor>
+      <equipo>Decathlon CMA CGM</equipo>
+      <diferencia>+2'06"</diferencia>
+    </corredorGeneral>
+
+    <corredorGeneral posicion="3">
+      <nombreCorredor>Primoz Roglic</nombreCorredor>
+      <equipo>Red Bull-BORA-hansgrohe</equipo>
+      <diferencia>+2'10"</diferencia>
+    </corredorGeneral>
+
+  </clasificacionGeneral>
+
+  <clasificacionEquipos>
+    <equipoClasificado posicion="1">
+      <nombreEquipo>Decathlon CMA CGM</nombreEquipo>
+      <diferencia>líder</diferencia>
+    </equipoClasificado>
+
+    <equipoClasificado posicion="2">
+      <nombreEquipo>XDS-Astana Team</nombreEquipo>
+      <diferencia>+57'32"</diferencia>
+    </equipoClasificado>
+
+    <equipoClasificado posicion="3">
+      <nombreEquipo>Bahrain-Victorious</nombreEquipo>
+      <diferencia>+1h 11'15"</diferencia>
+    </equipoClasificado>
+  </clasificacionEquipos>
+
+</etapa>
