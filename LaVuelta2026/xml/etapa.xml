@@ -69,6 +69,24 @@
       <distanciaSalida unidad="km">114.5</distanciaSalida>
     </sprint>
 
+    <puntoAnonimo nombre="Almonaster la Real">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.7854</longitudGeo>
+        <latitud unidad="grados decimales">37.8724</latitud>
+        <altitud unidad="m">574</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">2.0</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Castaño del Robledo">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.7042</longitudGeo>
+        <latitud unidad="grados decimales">37.8950</latitud>
+        <altitud unidad="m">733</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">17.7</distanciaSalida>
+    </puntoAnonimo>
+
     <puntoAnonimo nombre="Fuenteheridos">
       <coordenadas>
         <longitudGeo unidad="grados decimales">-6.6610</longitudGeo>
@@ -85,6 +103,15 @@
         <altitud unidad="m">714</altitud>
       </coordenadas>
       <distanciaSalida unidad="km">31.4</distanciaSalida>
+    </puntoAnonimo>
+
+    <puntoAnonimo nombre="Campofrío">
+      <coordenadas>
+        <longitudGeo unidad="grados decimales">-6.5728</longitudGeo>
+        <latitud unidad="grados decimales">37.7675</latitud>
+        <altitud unidad="m">520</altitud>
+      </coordenadas>
+      <distanciaSalida unidad="km">52.7</distanciaSalida>
     </puntoAnonimo>
 
     <puntoAnonimo nombre="Minas de Riotinto">
@@ -131,7 +158,6 @@
       </coordenadas>
       <distanciaSalida unidad="km">155.4</distanciaSalida>
     </puntoAnonimo>
-
   </hitos>
 
   <clasificacionEtapa>

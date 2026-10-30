@@ -4,10 +4,97 @@
 /* ***************************************/
 /*    DATOS ESTUDIANTE                   */
 /* --------------------------------------*/
-/*  Nombre y Apellidos:                  */
-/*  Correo electrónico (uniovi):         */
+/*  Nombre y Apellidos: Luis Salvador Ferrerp Carneiro */
+/*  Correo electrónico (uniovi): UO287841@uniovi.es */
 /*  Grupo de laboratorio:                */
 /* ***************************************/
 
+/* ----------------------------------------------------------------------
+   Gama cromática del proyecto (WCAG 2.2, nivel AAA)
+   Nivel AAA: ratio de al menos 7:1 para texto normal y 4.5:1 para texto grande
 
+   Color principal #8B1A1A (rojo oscuro)
+        o Contraste de 9.29:1 con color blanco (AAA)
+        o Contraste de 8.12:1 con color secundario (AAA)
+        o Contraste de 2.26:1 con color negro (NO CONTRASTA, combinación descartada)
 
+   Color secundario #FDECEA (rosa muy claro)
+        o Contraste de 18.36:1 con color negro (AAA)
+        o Contraste de 8.12:1 con color principal (AAA)
+        o Contraste de 1.14:1 con color blanco (NO CONTRASTA, combinación descartada)
+
+   Color blanco #FFFFFF
+        o Contraste de 9.29:1 con color principal (AAA)
+        o Contraste de 21.00:1 con color negro (AAA)
+        o Contraste de 1.14:1 con color secundario (NO CONTRASTA, combinación descartada)
+
+   Color negro #000000
+        o Contraste de 21.00:1 con color blanco (AAA)
+        o Contraste de 18.36:1 con color secundario (AAA)
+        o Contraste de 2.26:1 con color principal (NO CONTRASTA, combinación descartada)
+
+   Combinaciones válidas (AAA) que se utilizan en el proyecto:
+        o Texto blanco sobre fondo principal (cabecera y pie)
+        o Texto principal sobre fondo blanco (encabezados)
+        o Texto negro sobre fondo blanco (contenido general)
+        o Texto secundario sobre fondo principal (enlaces al pasar el ratón o con el foco)
+   ---------------------------------------------------------------------- */
+
+/* Especificidad: 010 */
+:root {
+    --color-principal: #8B1A1A;
+    --color-secundario: #FDECEA;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+/* Tipografía del proyecto: Verdana y Geneva son tipografías seguras de la
+   misma familia genérica (sans-serif) */
+/* Especificidad: 001 */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001 */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 001 */
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 001 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-principal);
+}
+
+/* El título del sitio está dentro de la cabecera, que tiene fondo principal */
+/* Especificidad: 002 */
+header h1 {
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 002 */
+header a,
+footer a {
+    color: var(--color-blanco);
+}
+
+/* Especificidad: 012 */
+header a:hover,
+header a:focus,
+footer a:hover,
+footer a:focus {
+    color: var(--color-secundario);
+}
