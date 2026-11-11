@@ -141,22 +141,22 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- Archivos multimedia: obligatoriamente en la carpeta multimedia -->
+  <!-- Archivos multimedia: organizados en multimedia/img, multimedia/video y multimedia/audio -->
   <xs:simpleType name="tipoArchivoFoto">
     <xs:restriction base="xs:string">
-      <xs:pattern value="\.\./multimedia/[\w\-]+\.(jpg|jpeg|png)"/>
+      <xs:pattern value="\.\./multimedia/img/[\w\-]+\.(jpg|jpeg|png)"/>
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="tipoArchivoVideo">
     <xs:restriction base="xs:string">
-      <xs:pattern value="\.\./multimedia/[\w\-]+\.(mp4|webm|ogv)"/>
+      <xs:pattern value="\.\./multimedia/video/[\w\-]+\.(mp4|webm|ogv)"/>
     </xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="tipoArchivoSonido">
     <xs:restriction base="xs:string">
-      <xs:pattern value="\.\./multimedia/[\w\-]+\.(mp3|ogg|wav|m4a)"/>
+      <xs:pattern value="\.\./multimedia/audio/[\w\-]+\.(mp3|ogg|wav|m4a)"/>
     </xs:restriction>
   </xs:simpleType>
 

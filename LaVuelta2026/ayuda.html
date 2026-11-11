@@ -16,12 +16,12 @@
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
     <!--Favicon del proyecto-->
-    <link rel="icon" type="image/x-icon" href="multimedia/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="multimedia/img/favicon.ico" />
 </head>
 
 <body>
     <header>
-        <h1>LaVuelta2026</h1>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
         <nav>
             <a href="index.html" title="Página principal del proyecto LaVuelta2026">Inicio</a>
             <a href="ciclista.html" title="Datos, equipos y resultados del ciclista Julien Bernard">Ciclista</a>
@@ -30,16 +30,24 @@
             <a href="meteorologia.html" title="Información meteorológica de la etapa">Meteorología</a>
             <a href="clasificaciones.html" title="Clasificaciones de La Vuelta 2026">Clasificaciones</a>
             <a href="juegos.html" title="Juego de preguntas sobre la etapa">Juegos</a>
-            <a href="ayuda.html" title="Ayuda sobre el contenido y el uso del sitio web">Ayuda</a>
+            <a href="ayuda.html" title="Ayuda sobre el contenido y el uso del sitio web" aria-current="page">Ayuda</a>
         </nav>
     </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-hidden="true">&gt;&gt;</li>
+            <li aria-current="page">Ayuda</li>
+        </ol>
+    </nav>
+
 
     <main>
         <h2>Ayuda</h2>
 
         <section>
             <h3>Inicio</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Es la página principal del proyecto y ofrece acceso a las secciones mediante el menú de navegación.</p>
         </section>
 
         <section>
@@ -54,17 +62,17 @@
 
         <section>
             <h3>Etapa</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Describe la etapa 16 de La Vuelta 2026, con salida en Cortegana y llegada en La Rábida-Palos de la Frontera.</p>
         </section>
 
         <section>
             <h3>Meteorología</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Presenta la información meteorológica asociada a la etapa.</p>
         </section>
 
         <section>
             <h3>Clasificaciones</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Reúne las clasificaciones de La Vuelta 2026.</p>
         </section>
 
         <section>
@@ -86,3 +94,4 @@
     </footer>
 </body>
 </html>
+

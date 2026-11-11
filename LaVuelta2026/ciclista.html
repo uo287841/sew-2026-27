@@ -16,15 +16,15 @@
     <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
 
     <!--Favicon del proyecto-->
-    <link rel="icon" type="image/x-icon" href="multimedia/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="multimedia/img/favicon.ico" />
 </head>
 
 <body>
     <header>
-        <h1>LaVuelta2026</h1>
+        <h1><a href="index.html">LaVuelta2026</a></h1>
         <nav>
             <a href="index.html" title="Página principal del proyecto LaVuelta2026">Inicio</a>
-            <a href="ciclista.html" title="Datos, equipos y resultados del ciclista Julien Bernard">Ciclista</a>
+            <a href="ciclista.html" title="Datos, equipos y resultados del ciclista Julien Bernard" aria-current="page">Ciclista</a>
             <a href="equipo.html" title="Alineación del equipo Lidl-Trek en La Vuelta 2026">Equipo</a>
             <a href="etapa.html" title="Información sobre la etapa 16 de La Vuelta 2026">Etapa</a>
             <a href="meteorologia.html" title="Información meteorológica de la etapa">Meteorología</a>
@@ -33,6 +33,14 @@
             <a href="ayuda.html" title="Ayuda sobre el contenido y el uso del sitio web">Ayuda</a>
         </nav>
     </header>
+    <nav aria-label="migas">
+        <ol>
+            <li><a href="index.html">Inicio</a></li>
+            <li aria-hidden="true">&gt;&gt;</li>
+            <li aria-current="page">Ciclista</li>
+        </ol>
+    </nav>
+
 
     <main>
         <h2>Julien Bernard</h2>
@@ -47,9 +55,9 @@
                 <li>Dorsal: 82</li>
             </ul>
             <picture>
-                <source srcset="multimedia/julien-bernard-movil.png" media="(max-width: 768px)" width="200" height="200" />
-                <source srcset="multimedia/julien-bernard-tablet.png" media="(max-width: 1024px)" width="300" height="300" />
-                <img src="multimedia/julien-bernard.png" width="400" height="400" alt="Fotografía oficial de Julien Bernard, ciclista del equipo Lidl-Trek en La Vuelta 2026" />
+                <source srcset="multimedia/img/julien-bernard-movil.png" media="(max-width: 768px)" width="200" height="200" />
+                <source srcset="multimedia/img/julien-bernard-tablet.png" media="(max-width: 1024px)" width="300" height="300" />
+                <img src="multimedia/img/julien-bernard.png" width="400" height="400" alt="Fotografía oficial de Julien Bernard, ciclista del equipo Lidl-Trek en La Vuelta 2026" />
             </picture>
         </section>
 
@@ -66,56 +74,40 @@
             <h3>Temporada 2025</h3>
             <table>
                 <tr>
-                    <th>Nombre del dato</th>
-                    <th>Resultado</th>
+                    <th id="dato" scope="col">Dato</th>
+                    <th id="resultado" scope="col">Resultado</th>
                 </tr>
                 <tr>
-                    <td>Equipo</td>
-                    <td>Lidl-Trek</td>
+                    <th id="resultados-listados" scope="row">Resultados listados</th>
+                    <td headers="resultados-listados resultado">7</td>
                 </tr>
                 <tr>
-                    <td>Campeonato de Francia en ruta (élite)</td>
-                    <td>7º</td>
+                    <th id="top-diez" scope="row">Puestos entre los diez primeros</th>
+                    <td headers="top-diez resultado">3</td>
                 </tr>
                 <tr>
-                    <td>Tour Auvergne-Rhône-Alpes, 3ª etapa (Brioude - Charantonnay)</td>
-                    <td>8º</td>
+                    <th id="top-veinte" scope="row">Puestos entre los veinte primeros</th>
+                    <td headers="top-veinte resultado">5</td>
                 </tr>
                 <tr>
-                    <td>Japan Cup (Utsunomiya)</td>
-                    <td>9º</td>
-                </tr>
-                <tr>
-                    <td>Andorra MoraBanc Clàssica</td>
-                    <td>11º</td>
-                </tr>
-                <tr>
-                    <td>La Vuelta a España, 10ª etapa (Sendaviva - Larra Belagua)</td>
-                    <td>17º</td>
-                </tr>
-                <tr>
-                    <td>Étoile de Bessèges - Tour du Gard, 1ª etapa (Bellegarde - Bellegarde)</td>
-                    <td>22º</td>
-                </tr>
-                <tr>
-                    <td>Tour de la Provence, 2ª etapa (Forcalquier - Manosque)</td>
-                    <td>24º</td>
+                    <th id="top-veinticinco" scope="row">Puestos entre los veinticinco primeros</th>
+                    <td headers="top-veinticinco resultado">7</td>
                 </tr>
             </table>
-            <p>Fuente: ficha oficial del ciclista en la web de La Vuelta 2026.</p>
+            <p>Recuento de los siete resultados de 2025 incluidos en la ficha del ciclista.</p>
         </section>
 
         <section>
             <h3>Multimedia</h3>
             <p>Equipo <a href="https://www.lavuelta.es/es/equipo/LTK/lidl-trek">Lidl-Trek</a> en la Vuelta Ciclista a España 2026.</p>
-            <video controls="controls" poster="multimedia/lidl-trek-poster.png">
-                <source src="multimedia/lidl-trek.mp4" type="video/mp4" />
-                <source src="multimedia/lidl-trek.webm" type="video/webm" />
+            <video controls="controls" poster="multimedia/img/lidl-trek-poster.png">
+                <source src="multimedia/video/lidl-trek.mp4" type="video/mp4" />
+                <source src="multimedia/video/lidl-trek.webm" type="video/webm" />
                 Tu navegador no admite la reproducción de vídeo.
             </video>
             <audio controls="controls">
-                <source src="multimedia/lidl-trek.mp3" type="audio/mpeg" />
-                <source src="multimedia/lidl-trek.wav" type="audio/wav" />
+                <source src="multimedia/audio/lidl-trek.mp3" type="audio/mpeg" />
+                <source src="multimedia/audio/lidl-trek.wav" type="audio/wav" />
                 Tu navegador no admite la reproducción de audio.
             </audio>
         </section>
@@ -129,3 +121,4 @@
     </footer>
 </body>
 </html>
+

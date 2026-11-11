@@ -32,18 +32,18 @@
   </referencias>
 
   <galeriaFotos>
-    <foto archivo="../multimedia/Salida-Cortegana.jpg" descripcion="Salida de la etapa en Cortegana"/>
-    <foto archivo="../multimedia/Sprint-Villarrasa.jpg" descripcion="Paso por el esprint intermedio de Villarrasa"/>
-    <foto archivo="../multimedia/Meta-LaRabida.jpg" descripcion="Llegada a La Rábida, Palos de la Frontera"/>
+    <foto archivo="../multimedia/img/Salida-Cortegana.jpg" descripcion="Salida de la etapa en Cortegana"/>
+    <foto archivo="../multimedia/img/Sprint-Villarrasa.jpg" descripcion="Paso por el esprint intermedio de Villarrasa"/>
+    <foto archivo="../multimedia/img/Meta-LaRabida.jpg" descripcion="Llegada a La Rábida, Palos de la Frontera"/>
   </galeriaFotos>
 
   <galeriaVideos>
-    <video archivo="../multimedia/Resumen-Etapa16.mp4" descripcion="Resumen oficial de la etapa 16"/>
-    <video archivo="../multimedia/UltimoKm-Etapa16.mp4" descripcion="Último kilómetro y esprint final"/>
+    <video archivo="../multimedia/video/Resumen-Etapa16.mp4" descripcion="Resumen oficial de la etapa 16"/>
+    <video archivo="../multimedia/video/UltimoKm-Etapa16.mp4" descripcion="Último kilómetro y esprint final"/>
   </galeriaVideos>
 
   <galeriaPodcasts>
-    <podcast archivo="../multimedia/Podcast-Etapa16.mp3" descripcion="Análisis de la etapa 16"/>
+    <podcast archivo="../multimedia/audio/Podcast-Etapa16.mp3" descripcion="Análisis de la etapa 16"/>
   </galeriaPodcasts>
 
   <coordenadasSalida>

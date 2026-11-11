@@ -58,6 +58,11 @@ body {
 }
 
 /* Especificidad: 001 */
+a {
+    color: var(--color-negro);
+}
+
+/* Especificidad: 001 */
 header {
     background-color: var(--color-principal);
     color: var(--color-blanco);
@@ -89,6 +94,7 @@ header h1 {
 header a,
 footer a {
     color: var(--color-blanco);
+    text-decoration: none;
 }
 
 /* Especificidad: 012 */
@@ -97,4 +103,48 @@ header a:focus,
 footer a:hover,
 footer a:focus {
     color: var(--color-secundario);
+}
+
+/* Especificidad: 013 */
+header nav a[aria-current="page"] {
+    background-color: var(--color-secundario);
+    color: var(--color-negro);
+    font-weight: bold;
+}
+
+/* Especificidad: 003 */
+header + nav ol {
+    font-size: 0.85em;
+    list-style: none;
+}
+
+/* Especificidad: 003 */
+header + nav li {
+    display: inline;
+}
+
+/* Especificidad: 013 */
+header + nav li:last-child {
+    font-weight: bold;
+}
+
+/* Especificidad: 003 */
+section:has(picture) ul {
+    list-style: none;
+}
+
+/* Especificidad: 014, 014 */
+section:has(picture) ul li:first-child,
+section:has(picture) ul li:nth-child(3) {
+    font-size: 1.25em;
+}
+
+/* Especificidad: 014 */
+section:has(picture) ul li:first-child {
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(picture) ul li:nth-child(4) {
+    font-weight: bold;
 }
